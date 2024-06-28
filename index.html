@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="video-background">
+      <video autoplay muted loop id="bgVideo">
+        <source
+          src="C:\Users\Mosa\Documents\coding stuff\gomo\g\src\gomo lana del rey.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+
+    <div class="content">
+      <header>
+        <h1>Happy Birthday!!!</h1>
+        <p>Happy Birthday, G! Enjoy your surprise!</p>
+      </header>
+
+      <main>
+        <section id="videos">
+          <h2>Oh memories</h2>
+          <div class="video-container">
+            <video width="560" height="315" controls>
+              <source
+                src="C:\Users\Mosa\Documents\coding stuff\gomo\src\gomo rest.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support HTML5 video.
+            </video>
+            <video width="560" height="315" controls>
+              <source
+                src="C:\Users\Mosa\Documents\coding stuff\gomo\src\gomo tiktok.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support HTML5 video.
+            </video>
+          </div>
+        </section>
+
+        <section id="game">
+          <h2>Lana Del Rey Quiz</h2>
+          <form id="quizForm">
+            <label for="q1">Question 1: What is Lana Del Rey's real name?</label
+            ><br />
+            <input type="radio" name="q1" value="a" /> Elizabeth Woolridge
+            Grant<br />
+            <input type="radio" name="q1" value="b" /> Lana Maria Del Rey<br />
+            <input type="radio" name="q1" value="c" /> Elizabeth Banks<br /><br />
+
+            <label for="q2"
+              >Question 2: Which album contains the song "Video Games"?</label
+            ><br />
+            <input type="radio" name="q2" value="a" /> Born to Die<br />
+            <input type="radio" name="q2" value="b" /> Ultraviolence<br />
+            <input type="radio" name="q2" value="c" /> Lust for Life<br /><br />
+
+            <label for="q3"
+              >Question 3: In which year was Lana Del Rey born?</label
+            ><br />
+            <input type="radio" name="q3" value="a" /> 1985<br />
+            <input type="radio" name="q3" value="b" /> 1986<br />
+            <input type="radio" name="q3" value="c" /> 1987<br /><br />
+
+            <label for="q4"
+              >Which Lana Del Rey song famously features the line "Summertime
+              sadness"?</label
+            ><br />
+            <input type="radio" name="q4" value="a" /> Summertime Sadness<br />
+            <input type="radio" name="q4" value="b" /> Blue Jeans<br />
+            <input type="radio" name="q4" value="c" /> West Coast<br /><br />
+
+            <button type="submit">Submit Answers</button>
+          </form>
+        </section>
+      </main>
+
+      <footer>
+        <p>Designed with ❤️ by Mosa.</p>
+      </footer>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
